@@ -15,6 +15,18 @@
     <div id='conteudo3'></div>
 
     <script>
-        // ...
+
+        // conteudo 1
+        $('#conteudo1').append('<p>1</p>')
+
+
+        const elementos = [
+            $('<li>').append('Arroz'),
+            $('<li>').append('Feijão'),
+            $('<li>').append('Carne')
+        ]
+
+        const lista = $('<ul><li>Sorve</li></ul>').append(elementos)
+        $('#conteudo2').append(lista)
     </script>
 </body>
