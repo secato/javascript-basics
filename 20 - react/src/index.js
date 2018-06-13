@@ -11,6 +11,7 @@ import ReactDOM from 'react-dom'
 // import Saudacao from './components/Saudacao'
 
 import Pai from './components/Pai'
+import Filho from './components/Filho'
 
 ReactDOM.render(
     <div>
@@ -20,7 +21,10 @@ ReactDOM.render(
         <Pai nome="Jesus" sobrenome="Cristo">
             {/* EXEMPLO DE COMENTARIO JSX */}
             {/* COMO PASSAR OS FILHOS AQUI? */}
-            
+            <Filho nome="Pedro"/>
+            <Filho nome="Paulo" sobrenome="Silva" />
+            <Filho nome="Carla" sobrenome="Silva" />
+
         </Pai>
     </div>,
     document.getElementById('root')
