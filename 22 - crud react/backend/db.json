@@ -9,6 +9,11 @@
       "name": "Xuxa do paracatu",
       "email": "xuxa@globo.com",
       "id": 3
+    },
+    {
+      "name": "Loja de quem",
+      "email": "loja@lecim.com",
+      "id": 4
     }
   ]
 }
