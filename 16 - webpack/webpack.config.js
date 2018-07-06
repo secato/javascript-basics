@@ -1,5 +1,4 @@
 const modoDev = process.env.NODE_ENV !== 'production' 
-
 const webpack = require('webpack')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
