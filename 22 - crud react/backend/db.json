@@ -1,0 +1,19 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva2",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "Xuxa do paracatu",
+      "email": "xuxa@globo.com",
+      "id": 3
+    },
+    {
+      "name": "Loja de quem",
+      "email": "loja@lecim.com",
+      "id": 4
+    }
+  ]
+}
