@@ -1,7 +1,7 @@
 // tagged templates - process template string inside function
 
 // partes da string (array) sem aquilo que foi interpolado
-// o array de valores tem quilo que foi imterpolado
+// o array de valores tem quilo que foi interpolado
 // resultado da funcao é dois arrays
 function tag (partes, ...valores) {
   console.log(partes)
